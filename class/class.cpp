@@ -15,3 +15,12 @@ public: void cetak() {
 		  string kode;
 		  string namaM;
 		  int sks;
+	  public:
+		  void input() {
+			  cout << "Masukan Kode Matakuliah : ";
+			  cin >> kode;
+			  cout << "Masukan Nama Matakuliah : ";
+			  cin >> namaM;
+			  cout << "Jumlah SKS : ";
+			  cin >> sks;
+		  }
