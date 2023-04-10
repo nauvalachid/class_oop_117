@@ -38,3 +38,5 @@ public: void cetak() {
 	  
 		  cout << "Masukan NIM : ";
 		  cin >> mhs1.nim;
+		  cout << "Masukan nama : ";
+		  cin >> mhs1.nama;
